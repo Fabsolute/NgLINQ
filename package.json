@@ -1,0 +1,25 @@
+{
+  "name": "nglinq",
+  "version": "1.0.0",
+  "dependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fabsolute/nglinq.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fabsolute/nglinq/issues"
+  },
+  "keywords": [
+    "linq"
+  ],
+  "author": {
+    "name": "Ahmet Turk",
+    "email": "ahmetturk93@gmail.com",
+    "url": "https://github.com/fabsolute"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "~2.2.0"
+  }
+}
