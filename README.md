@@ -1,0 +1,2 @@
+# NgLINQ
+LINQ for Typescript
