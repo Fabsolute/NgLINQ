@@ -200,7 +200,7 @@ Array.prototype.min = function (transform) {
         return this.select(transform).min();
     }
 
-    return this.aggregate((x, y) => (x > y) ? x : y);
+    return this.aggregate((x, y) => (x < y) ? x : y);
 };
 
 Array.prototype.orderBy = function (key_selector, descending) {
