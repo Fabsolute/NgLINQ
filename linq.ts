@@ -186,7 +186,7 @@ Array.prototype.lastOrDefault = function (predicate, default_value) {
     return this.last(predicate) || default_value;
 };
 
-Array.prototype.max = function (transform) {
+Array.prototype.min = function (transform) {
     if (transform) {
         return this.select(transform).max();
     }
@@ -195,7 +195,7 @@ Array.prototype.max = function (transform) {
 };
 
 
-Array.prototype.min = function (transform) {
+Array.prototype.max = function (transform) {
     if (transform) {
         return this.select(transform).min();
     }
