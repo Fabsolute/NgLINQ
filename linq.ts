@@ -188,7 +188,7 @@ Array.prototype.lastOrDefault = function (predicate, default_value) {
 
 Array.prototype.min = function (transform) {
     if (transform) {
-        return this.select(transform).max();
+        return this.select(transform).min();
     }
 
     return this.aggregate((x, y) => (x > y) ? y : x);
@@ -197,7 +197,7 @@ Array.prototype.min = function (transform) {
 
 Array.prototype.max = function (transform) {
     if (transform) {
-        return this.select(transform).min();
+        return this.select(transform).max();
     }
 
     return this.aggregate((x, y) => (x > y) ? x : y);
